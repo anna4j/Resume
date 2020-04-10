@@ -1,6 +1,7 @@
 body {
-  color: #521262;
+  font-size: 1.4rem;
 
+  color: #521262;
   margin: 0;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
@@ -16,10 +17,30 @@ h2 {
   color: #88304e;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #ff8364;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #95a792;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+a {
+  color: #88304e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffe2e2;
 }
 .top-container {
   background-color: white;
@@ -28,9 +49,12 @@ h3 {
 }
 .middle-container {
   background-color: #ffe2e2;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .bottom-container {
-  background-color: #a4e5d9;
+  background-color: #fd94b4;
+  padding: 50px 0 18px;
 }
 .t-cloud {
   position: absolute;
@@ -43,28 +67,70 @@ h3 {
   top: 30%;
 }
 .ds {
-  width: 25%;
+  width: 20%;
   border-radius: 100%;
   float: left;
   margin-right: 30px;
 }
 .ml {
-  width: 25%;
+  width: 20%;
   border-radius: 100%;
   float: right;
   margin-left: 30px;
 }
 .gr {
-  width: 25%;
+  width: 20%;
   border-radius: 100%;
   float: left;
   margin-right: 30px;
 }
-.skill-row {
+.me {
+  border-radius: 100%;
+}
+.intro {
   width: 50%;
-  margin: 150px auto 150px auto;
-  line-height: 2;
+  margin: auto;
+}
+.skill-row {
+  width: 60%;
+  margin: 10% auto 10% auto;
   text-align: left;
+}
+.city {
+  padding-bottom: 0%;
+  width: 48.5%;
+  height: auto;
+}
+.msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background-color: #f26fa3;
+  border-radius: 21px;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffe2e2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b02789;
+}
+.btn:hover {
+  background-color: #f59dc7;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.copyright {
+  color: #ffe2e2;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 /*body {
   background-color: #eaf6f6;
